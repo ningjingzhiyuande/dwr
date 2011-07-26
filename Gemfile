@@ -7,6 +7,11 @@ gem 'rails', '3.0.9'
 
 gem 'mysql2', '~> 0.2.6'
 
+gem "will_paginate", "~> 3.0.pre2"
+
+gem "authlogic", "~> 3.0.3"
+
+gem "nifty-generators", "~> 0.4.6"
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -29,3 +34,4 @@ gem 'mysql2', '~> 0.2.6'
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem "mocha", :group => :test

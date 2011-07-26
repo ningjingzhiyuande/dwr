@@ -1,4 +1,15 @@
 Dwr::Application.routes.draw do
+  
+  resources :user_sessions
+
+  resources :users
+
+  resources :details
+
+  resources :topics
+
+  resources :categories
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
