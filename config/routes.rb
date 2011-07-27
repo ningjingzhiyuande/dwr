@@ -1,5 +1,7 @@
 Dwr::Application.routes.draw do
   
+ # resources :homes
+
   resources :user_sessions
 
   resources :users
@@ -10,6 +12,10 @@ Dwr::Application.routes.draw do
 
   resources :categories
 
+  match "register", :to => "users#new",:as => "register"
+  match "login", :to => "user_sessions#new",:as =>"login"
+  match "logout", :to => "user_sessions#destroy",:as => "logout"
+  root :to => "home#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -5,6 +5,7 @@ class CreateTopics < ActiveRecord::Migration
       t.string :title
       t.string :category_id
       t.string :tags
+      t.boolean :is_show,:default => false
       t.timestamps
     end
   end

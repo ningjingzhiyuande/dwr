@@ -17,7 +17,17 @@
   </div>
   <div class="field">
     <%= f.label :category_id %><br />
-    <%= f.text_field :category_id %>
+    <%= f.select :category_id,Category.all.map{|v|[v.name,v.id]} %>
+  </div>
+  <%=f.fields_for :detail do |detail| %>
+  <div class="field">
+    <%= detail.label :content %><br />
+    <%= detail.text_area :content %>
+  </div>
+<%end%>
+  <div class="field">
+    <%= f.label :is_show %><br />
+    <%= f.check_box :is_show %>
   </div>
   <div class="actions">
     <%= f.submit %>

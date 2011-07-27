@@ -25,7 +25,7 @@ class TopicsController < ApplicationController
   # GET /topics/new.xml
   def new
     @topic = Topic.new
-
+    @topic.build_detail
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @topic }

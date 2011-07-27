@@ -22,7 +22,8 @@ ActiveRecord::Schema.define(:version => 20110726144257) do
   end
 
   create_table "details", :force => true do |t|
-    t.integer  "topic_id"
+    t.integer  "resource_id"
+    t.string   "resource_type"
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -33,6 +34,7 @@ ActiveRecord::Schema.define(:version => 20110726144257) do
     t.string   "title"
     t.string   "category_id"
     t.string   "tags"
+    t.boolean  "is_show",     :default => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
