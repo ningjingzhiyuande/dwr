@@ -22,7 +22,7 @@
   <%=f.fields_for :detail do |detail| %>
   <div class="field">
     <%= detail.label :content %><br />
-    <%= detail.text_area :content %>
+    <%= detail.text_area :content,:class => "mceEditor" %>
   </div>
 <%end%>
   <div class="field">

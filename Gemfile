@@ -16,6 +16,7 @@ gem "nifty-generators", "~> 0.4.6"
 gem "mocha"
 
 #gem 'ruby-debug19'
+gem "tiny_mce"
 
 gem "dynamic_form", "~> 1.1.4"
 # Use unicorn as the web server
