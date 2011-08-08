@@ -1,0 +1,209 @@
+*{margin: 0 auto;padding:0;}
+ul{list-style: none;}
+body {
+background: #e8eef2 url(images/reg2.png) repeat-x scroll 0 0;
+_background: #e3ebf0 url(images/reg2.png) repeat-x scroll 0 0;
+height: 100%;
+font-size: 12px;
+font-family: "Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;
+_font-family: Tahoma,Arial,Helvetica,STHeiti;
+cursor: default;
+}
+div#wrap {
+background: none;
+min-height: 100%;
+_height: 100%;
+}
+
+.mini-mode div#header {
+width: 968px;
+padding-top: 50px;
+}
+
+.logo {
+width: 397px;
+background: url(http://s.libdd.com/img/logo/reg-logo-0714.$2287.png) no-repeat;
+_background-image: url(http://s.libdd.com/img/logo/reg-logo-0714-ie6.$2287.png);
+float: left;
+width: 397px;
+height: 52px;
+text-indent: -9999em;
+position: relative;
+}
+h1 {
+display: block;
+font-size: 16px;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+.login-button, .login-button:link, .login-button:visited {
+position: absolute;
+top: 10px;
+right: 10px;
+width: 60px;
+height: 30px;
+background: url(http://s.libdd.com/img/button/reg-v2-login.$1364.png) no-repeat scroll 0 0;
+text-indent: -9999em;
+}
+
+.mini-mode div#content {
+padding-top: 40px;
+width: 968px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+position: relative;
+display: block;
+//border:1px solid blue;
+}
+
+.mini-mode .sliding-show {
+width: 500px;
+height: 440px;
+margin: 0 20px 0 0;
+float: left;
+display: inline;
+overflow: hidden;
+//border:1px solid blue;
+}
+.mini-mode .reg-action{float:left;width:350px;padding-left:5px;margin-left:10px;height:440px;margin-top: 20px;} 
+
+.mini-mode .reg-title {
+font-size: 18px;
+font-weight: normal;
+color: #324f65;
+margin-bottom: 20px;
+}
+.mini-mode .reg-action .reg-item {
+width: 448px;margin: 0 0 20px 0;position: relative;
+float: left;
+_display: inline;
+_margin-right: 7px;
+margin-right: 7px;
+}
+.reg-action .reg-item .reg-input-wrapper {
+background: url(http://s.libdd.com/img/bg/reg-v2-input-sprites.$1412.png) no-repeat scroll 0 0;
+border: none;
+width: 202px;
+height: 34px;
+padding: 4px;
+overflow: hidden;
+position: relative;
+}
+.mini-mode .reg-action .reg-item .reg-input-wrapper {
+float: left;
+background-image: url(http://s.libdd.com/img/bg/reg-input-0609.$1767.png);
+width: 262px;
+}
+.reg-action .reg-input-wrapper .reg-input {
+background: transparent;
+border: none;
+float:left;
+width: 254px;
+height: 34px;
+font-size: 18px;
+line-height: 34px;
+color: #324f65;
+}
+.reg-action .reg-input-wrapper .reg-label {
+position: absolute;
+left: 8px;
+top: 8px;
+_top: 11px;
+color: #bababa;
+font-size: 18px;
+cursor: text;
+color: #92a2af;
+}
+.mini-mode .reg-action .reg-item .reg-tip {
+position: static;
+float: left;
+padding: 0 0 0 10px;
+width: 168px;
+height: 40px;
+line-height: 40px;
+background: none;
+color: #666;
+}
+input, a {
+outline: none;
+}
+
+input, input[type="password"], input[type="search"], isindex {
+-webkit-appearance: textfield;
+border: 2px inset;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+}
+
+input, textarea, keygen, select, button, isindex, datagrid {
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: -webkit-auto;
+}
+.reg-action .reg-submit {
+width: 240px;
+height: 40px;
+border: none;
+background: url(http://s.libdd.com/img/button/reg-v2-submit-style-two.$1556.png) no-repeat scroll 0 0;
+text-indent: -9999em;
+cursor: pointer;
+}
+
+
+.page-login div#header {
+width: 550px;
+padding: 0;
+}
+
+.page-login .login-wrapper {
+position: absolute;
+top: 50%;
+margin-top: -160px;
+width: 550px;
+}
+
+.page-login .logo {
+width: 338px;
+height: 107px;
+background: url(http://s.libdd.com/img/logo/login-logo.$1627.png) no-repeat scroll 0 0;
+_background-image: url(http://s.libdd.com/img/logo/login-logo-pure.$1627.png);
+}
+
+.page-login .logo a {
+width: 338px;
+height: 107px;
+display: block;
+}
+.page-login .reg-action .login-misc {
+padding-top: 10px;
+text-align: right;
+width: 550px;
+}
+.page-login .reg-action {
+position: relative;
+clear: both;
+}
+
+.register-button, .register-button:link, .register-button:visited {
+position: absolute;
+top: 10px;
+right: 10px;
+width: 60px;
+height: 30px;
+background: url(http://s.libdd.com/img/button/login-v2-register.$1368.png) no-repeat scroll 0 0;
+text-indent: -9999em;
+}
+.clear{clear:both}
